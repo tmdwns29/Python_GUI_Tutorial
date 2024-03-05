@@ -16,6 +16,6 @@ class MyApp(QWidget): # MyApp 객체 선언, QWidget클래스 상속받음
 
 if __name__ == '__main__': # __name__은 현재 모듈의 이름이 저장되는 내장 변수
     app = QApplication(sys.argv) # 객체 생성
-    ex = MyApp() # MyApp() 객체 생성 -> QWidget 상속받음
+    ex = MyApp() # MyApp() 객체 생성 -> QWidget클래스 상속받음
     sys.exit(app.exec_()) # 애플리케이션이 정상적으로 종료하기 위해 호출
     # app.exec_()호출은 프로그램이 종료될 때까지 계속 실행
